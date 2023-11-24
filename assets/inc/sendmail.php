@@ -3,14 +3,18 @@
 require_once('phpmailer/class.phpmailer.php');
 require_once('phpmailer/class.smtp.php');
 
+require __DIR__ . '/vendor/autoload.php';
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/');
+$dotenv->load();
+
 $mail = new PHPMailer();
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                                             // Enable SMTP authentication
-$mail->Username = 'chrisbochampion@gmail.com';          // SMTP username
-$mail->Password = 'AsDf12**';             // SMTP password
+$mail->Username = $_SERVER['MAIL_USERNAME'];          // SMTP username
+$mail->Password = $_SERVER['MAIL_PASSWORD'];             // SMTP password
 $mail->SMTPSecure = true;                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
 
@@ -30,8 +34,8 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 
         $botcheck = $_POST['form_botcheck'];
 
-        $toemail = 'chrisbochampion@gmail.com'; // Your Email Address
-        $toname = 'Chrisbo Champions Club'; // Your Name
+        $toemail = $_SERVER['MAIL_USERNAME']; // Your Email Address
+        $toname = $_SERVER['MAIL_NAME']; // Your Name
 
         if( $botcheck == '' ) {
 
