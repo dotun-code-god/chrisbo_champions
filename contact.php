@@ -259,13 +259,13 @@
                     <h4>Send Message</h4>
                     <div class="text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</div>
                     <!--Contact Form-->
-                    <form method="post" action="inc/sendemail.php" id="contact-form">
+                    <form method="post" action="assets/inc/sendmail.php" id="contact-form">
                         <div class="row">
                             <div class="form-group col-md-6">
                                 <input type="text" class="form-control" name="form_name" value="" placeholder="Your Name" required>
                             </div>                      
                             <div class="form-group col-md-6">
-                                <input type="email" class="form-control" name="email" value="" placeholder="Your Email" required>
+                                <input type="email" class="form-control" name="form_email" value="" placeholder="Your Email" required>
                             </div>                        
                             <div class="form-group col-md-12">
                                 <input type="text" class="form-control" name="form_phone" value="" placeholder="Phone Number" required>
@@ -599,6 +599,29 @@
     </footer>
     <!--End Main Footer -->
 
+    <?php
+
+        if(isset($_GET['msg']) && isset($_GET['status'])){
+            $message = $_GET['msg'];
+            $status = $_GET['status']; ?>
+
+            <div class="conf_message">
+                <div class="conf_message_content">
+                    <span class="conf_message_close_btn">&#215;</span>
+                    <?php if(!empty($status) && isset($status) && $status == 'true') { ?>
+                        <img src="assets/images/check-mark-green.png" alt="">
+                    <?php } else { ?>
+                        <img src="assets/images/prohibition-mark.png" alt="">
+                    <?php } ?>
+                    <?php if(!empty($message) && isset($message)){ ?>
+                        <p><?=$message?></p>
+                    <?php } ?>
+                </div>
+            </div>
+            
+        <?php }
+
+    ?>
 </div>
 <!--End pagewrapper-->
 

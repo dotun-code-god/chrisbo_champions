@@ -3,15 +3,15 @@
 require_once('phpmailer/class.phpmailer.php');
 require_once('phpmailer/class.smtp.php');
 
-require __DIR__ . '/vendor/autoload.php';
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/');
+require dirname(dirname(__DIR__)) . '/vendor/autoload.php';
+$dotenv = Dotenv\Dotenv::createImmutable(dirname(dirname(__DIR__)) . '/');
 $dotenv->load();
 
 $mail = new PHPMailer();
 
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+$mail->Host = $_SERVER['MAIL_HOST'];  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                                             // Enable SMTP authentication
 $mail->Username = $_SERVER['MAIL_USERNAME'];          // SMTP username
 $mail->Password = $_SERVER['MAIL_PASSWORD'];             // SMTP password
@@ -22,7 +22,7 @@ $message = "";
 $status = "false";
 
 if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
-    if( $_POST['form_name'] != '' AND $_POST['form_email'] != '' AND $_POST['form_subject'] != '' ) {
+    if( $_POST['form_name'] != '' AND $_POST['form_email'] != '' AND $_POST['form_message'] != '' ) {
 
         $name = $_POST['form_name'];
         $email = $_POST['form_email'];
@@ -76,6 +76,5 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
     $status = "false";
 }
 
-$status_array = array( 'message' => $message, 'status' => $status);
-echo json_encode($status_array);
+header("Location: ../../contact.php?msg=$message&status=$status");
 ?>

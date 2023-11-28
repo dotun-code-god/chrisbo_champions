@@ -596,6 +596,9 @@
 		visibility:hidden;
 		opacity:0;
 	}
+	.founder_image{
+		margin-left: 50px;
+	}
 	
 }
 @media only screen and (max-width: 767px){	
@@ -1041,6 +1044,9 @@
 	.gallery-grid {
 		display: flex;
 		flex-wrap: wrap;
+	}
+	.about .theme_container {
+		margin-top:100px;
 	}
 }
 

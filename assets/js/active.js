@@ -979,6 +979,12 @@
         $('.donate-fomr-popup').fadeOut(300);
     });
 
+    $(".conf_message_close_btn").on('click', function() {
+        $(".conf_message").fadeOut();
+        let currentLocation = window.location.href.split('?')[0];
+        window.location.assign(currentLocation);
+    })
+
     // Elements Animation
     if ($('.wow').length) {
         var wow = new WOW({

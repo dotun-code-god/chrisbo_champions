@@ -1722,7 +1722,7 @@ a.primary_btn-two.s-two:before {
 .banner-section-one {
 	position: relative;
 	display: block;
-	background: var(--theme-main-color);
+	/* background: var(--theme-main-color); */
 }
 .banner-section-one-carousel {
 	position: relative;
@@ -3784,6 +3784,7 @@ section.team-section {
 }
 .team-block img {
 	position: absolute;
+	border-radius: 5px;
 }
 .team-block {
 	position: relative;
@@ -3915,7 +3916,7 @@ section.volunteer-section .shape-two {
 	margin: 4px;
 }
 .project-form .donation-amount li.other-input {
-	display: none;
+	/* display: none; */
 }
 /* cta section two */
 
@@ -6522,6 +6523,9 @@ section.blog-grid-section {
 .button-team .about-button a.primary_btn {
 	margin-top: 30px;
 }
+.button-team .from-button a.primary_btn-one {
+	margin: 20px auto 70px;
+}
 .sidebar-block .popular-tag {
 	position: relative;
 	display: block;
@@ -7529,11 +7533,13 @@ section.donation-detalis-section {
 /* Header style two */
 
 header.main-header.header-s-two {
-	background: var(--theme-main-color);
+	background: #a70707;
+	/* background: var(--theme-main-color); */
 	position: relative;
 }
 header.main-header.header-s-two {
-	background: var(--theme-main-color);
+	background: #a70707;
+	/* background: var(--theme-main-color); */
 	position: relative;
 }
 /* blog details section */
@@ -8711,4 +8717,78 @@ a.carousel-nav-btn-s-1-next:hover:before {
 	background: rgba(0,0,0,0.2);
 	width:100%;
 	height: 100%;
+}
+.conf_message{
+	position:fixed;
+	z-index:9999;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color: rgba(0,0,0,0.5);
+	width:100%;
+	height:100%;
+	padding: 0 10px;
+}
+.conf_message_content{
+	background-color:white;
+	max-width:400px;
+	margin:auto;
+	max-height: 400px;
+	position:relative;
+	top:50%;
+	transform: translateY(-50%);
+	padding: 36px;
+	text-align:center;
+	color:black;
+	border-radius: 15px;
+}
+.conf_message_content img {
+	display:block;
+	width: 200px;
+	margin:auto;
+}
+.conf_message_close_btn{
+	position: absolute;
+	right:12px;
+	top:10px;
+	cursor:pointer;
+	color: #858585;
+	font-size: 30px;
+	transition: color 0.2s;
+}
+.conf_message_close_btn:hover {
+	color:black;
+}
+.conf_message_content p {
+	margin-top:10px;
+}
+.amount-input-footer{
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	color: white;
+	padding-left: 15px;
+}
+.resource_cont{
+	max-width: 500px;
+	margin:auto;
+}
+.resource_cont img {
+	width:100%;
+}
+.download_btn_container{
+	display:flex;
+	justify-content: center;
+	margin: 20px 0;
+}
+.download_btn_container a{
+	padding: 12px 30px;
+	background-color: rgb(0, 92, 0);
+	color:white;
+	border-radius: 50px;;
+	transition: 0.3s box-shadow;
+}
+.download_btn_container a:hover{
+	box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
 }
