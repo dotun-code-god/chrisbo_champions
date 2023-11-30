@@ -470,7 +470,7 @@
 
 
 
-    // Banner Section One Carousel
+        // Banner Section One Carousel
     if ($('.banner-section-one-carousel').length) {
         $('.banner-section-one-carousel').owlCarousel({
             animateOut: 'fadeOut',
@@ -494,6 +494,32 @@
                 },
                 1024: {
                     items: 1
+                }
+            }
+        });
+    }
+
+    // Three item carousel
+    if ($('.three-item-carousel').length) {
+        $('.three-item-carousel').owlCarousel({
+            loop: true,
+            margin: 0,
+            dots: true,
+            mouseDrag: false,
+            nav: true,
+            smartSpeed: 500,
+            autoplay: true,
+            autoplayTimeout: 9000,
+            navText: ['<span class="fas fa-angle-left"></span>', '<span class="fas fa-angle-right"></span>'],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                992: {
+                    items: 3
                 }
             }
         });

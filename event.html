@@ -3,7 +3,23 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Chrisbo HB Champions</title>
+    <title>Chrisbo HB Champions | Events</title>
+
+    <!-- Meta Tags -->
+    <meta name="description" content="An NGO For Sickle Cell Champions" />
+    <meta name="keywords" content="sickle, cell, sickle cell, SS, Hbss, NGO, champions" />
+    
+    <!-- Facebook meta tags -->
+    <meta property="og:title" content="Chrisbo Champions Club | Events" />
+    <meta property="og:url" content="https://hbchampions.org" />
+    <meta property="og:description" content="An NGO For Sickle Cell Champions" />
+    <meta property="og:image" content="https://hbchampions.org/assets/images/hb_logo1.jpg" />
+    
+    <!-- Twitter meta tags -->
+    <meta name="twitter:title" content="Chrisbo Champions Club | Events" />
+    <meta name="twitter:description" content="An NGO For Sickle Cell Champions" />
+    <meta name="twitter:image:src" content="https://hbchampions.org/assets/images/hb_logo1.jpg" />
+    
     <!-- Stylesheets -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/fontawesome-all.css" rel="stylesheet">
@@ -251,128 +267,12 @@
                         <li class="donation-form-one-price-value" data-dollars='10000'>N10,000</li>
                         <li class="donation-form-one-price-value" data-dollars='15000'>N15,000</li>
                         <li class="donation-form-one-price-value" data-dollars='20000'>N20,000</li>
-                        <li class="other-input"></li>
-                    </ul>
-                    <div class="donation-form-one-submit-btn" style="margin-top:10px;"><button class="primary_btn-one donate_button"
-                            type="submit">Donate Now<i class="far fa-heart"></i></button></div>
-                </div>
-                <div class="donate-fomr-popup donate-form-s-one">
-                    <div class="donate-fomr-popup-outer">
-                        <div class="donate-fomr-popup-inner">
-                            <div class="donate-fomr-popup-close"><i class="fas fa-times"></i></div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <h3 class="panel-title">Donating Amount</h3>
-                                </div>
-                                <div class="donate-price-wrap">N<span class="donate-price"></span></div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h3 class="panel-title">Personal Information</h3>
-                                        </div>
-                                        <div class="panel-body">
-                                            <div class="bodyTest">
-                                                <form class="">
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <!-- first name input-->
-                                                            <div class="form-group">
-                                                                <div class="">
-                                                                    <input id="name" name="name" type="text"
-                                                                        placeholder="name" class="form-control">
-                                                                    <p class="help-block"></p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="form-group">
-                                                                <div class=" ">
-                                                                    <input id="address" name="address" type="text"
-                                                                        placeholder="address" class="form-control">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <!-- last name input-->
-                                                    <div class="row">
-                                                        <div class="col-md-12">
-                                                            <div class="control-group">
-                                                                <div class="">
-                                                                    <input id="city" name="city" type="text"
-                                                                        autocomplete="address-level2" placeholder="city"
-                                                                        class="form-control">
-                                                                    <p class="help-block"></p>
-                                                                </div>
-                                                            </div>
-                                                            <!-- region input-->
-                                                        </div>
-                                                        <div class="col-md-12">
-                                                            <div class="control-group">
-                                                                <div class="">
-                                                                    <input id="postal-code" name="postal-code"
-                                                                        type="text" autocomplete="postal-code"
-                                                                        placeholder="zip or postal code"
-                                                                        class="form-control">
-                                                                    <p class="help-block"></p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6">
-                                    <div class="panel panel-default">
-                                        <div class="panel-heading">
-                                            <h3 class="panel-title">Payment Details</h3>
-                                        </div>
-                                        <div class="panel-body">
-                                            <form role="form" id="payment-form">
-                                                <div class="form-group">
-                                                    <div class="input-group">
-                                                        <input type="text" class="form-control" name="cardNumber"
-                                                            placeholder="Valid Card Number" required="" autofocus=""
-                                                            data-stripe="number">
-                                                        <span class="input-group-block">
-                                                            <i class="fa fa-credit-card"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="expMonth"
-                                                        placeholder="MM" required="" data-stripe="exp_month">
-                                                </div>
-                                                <div class="form-group">
-                                                    <input type="text" class="form-control" name="expYear"
-                                                        placeholder="YY" required="" data-stripe="exp_year">
-                                                </div>
-                                                <div class="form-group">
-                                                    <input type="password" class="form-control" name="cvCode"
-                                                        placeholder="CV" required="" data-stripe="cvc">
-                                                </div>
-
-                                                <div class="row">
-                                                    <div class="col-xs-12">
-                                                        <button class="primary_btn" type="submit">Donate Now <i
-                                                                class="far fa-heart"></i></button>
-                                                    </div>
-                                                </div>
-                                                <div class="row" style="display:none;">
-                                                    <div class="col-xs-12">
-                                                        <p class="payment-errors"></p>
-                                                    </div>
-                                                </div>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="other-input about-section-two-input-box">
+                            <input placeholder="Email Amount" class="amount-input-footer input">
                         </div>
-                    </div>
+                    </ul>
+                        <div class="donation-form-one-submit-btn" style="margin-top:10px;"><a href="donate.html"><button
+                            class="primary_btn-one donate_button">Donate Now<i class="far fa-heart"></i></button></a></div>
                 </div>
             </div>
         </div>
