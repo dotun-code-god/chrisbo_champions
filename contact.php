@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Chrisbo HB Champions | Contact Us</title>
+    <title>Chrisbo HB Champions Club | Contact Us</title>
 
     <!-- Meta Tags -->
     <meta name="description" content="An NGO For Sickle Cell Champions" />
