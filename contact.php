@@ -88,7 +88,7 @@
                                         <li><a href="index.html">Home </a> </li>
                                         <li><a href="faq.html">FAQs</a></li>
                                         <li><a href="event.html">Events</a></li>                                      
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </div>
                             </nav>  
@@ -182,7 +182,7 @@
                         <div class="content">
                             <h4>Support & Faqs</h4>
                             <div class="text">Support this movement and also view relevant FAQs</div>
-                            <div class="contact-button"><a href="contact.html">Contact Us <i class="far fa-arrow-right"></i></a></div>
+                            <div class="contact-button"><a href="contact.php">Contact Us <i class="far fa-arrow-right"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -312,13 +312,15 @@
                 <div class="col-lg-6">
                     <div class="donation-form-one-form-wrap s-two">
                         <ul class="donation-form-one-form-wrap-ul donate_form_amount_wrap">
-                            <li class="donation-form-one-price-value" data-dollars='1000'>$1000</li>
-                            <li class="donation-form-one-price-value" data-dollars='500'>$500</li>
-                            <li class="donation-form-one-price-value" data-dollars='100'>$100</li>
-                            <li class="donation-form-one-price-value" data-dollars='25'>$25</li>
-                            <li class="other-input"></li>
+                            <li class="donation-form-one-price-value" data-dollars='5000'>N5000</li>
+                            <li class="donation-form-one-price-value" data-dollars='10000'>N10,000</li>
+                            <li class="donation-form-one-price-value" data-dollars='15000'>N15,000</li>
+                            <li class="donation-form-one-price-value" data-dollars='20000'>N20,000</li>
+                            <div class="other-input about-section-two-input-box">
+                                <input placeholder="Email Amount" class="amount-input-footer input">
+                            </div>
                         </ul>
-                        <div class="donation-form-one-submit-btn"><button class="primary_btn-one donate_button"
+                        <div class="donation-form-one-submit-btn" style="margin-top:10px;"><button class="primary_btn-one donate_button"
                                 type="submit">Donate Now<i class="far fa-heart"></i></button></div>
                     </div>
                     <div class="donate-fomr-popup donate-form-s-one">
@@ -329,7 +331,7 @@
                                     <div class="panel-heading">
                                         <h3 class="panel-title">Donating Amount</h3>
                                     </div>
-                                    <div class="donate-price-wrap">$<span class="donate-price"></span></div>
+                                    <div class="donate-price-wrap">N<span class="donate-price"></span></div>
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-6">

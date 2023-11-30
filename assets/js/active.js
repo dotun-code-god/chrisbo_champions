@@ -455,28 +455,6 @@
 
 
 
-    //Hidden Sidebar
-    if ($('.hidden-bar').length) {
-        var hiddenBar = $('.hidden-bar');
-        var hiddenBarOpener = $('.hidden-bar-opener');
-        var hiddenBarCloser = $('.hidden-bar-closer');
-        var navToggler = $('.nav-toggler');
-
-        //Show Sidebar
-        hiddenBarOpener.on('click', function() {
-            hiddenBar.toggleClass('visible-sidebar');
-            navToggler.toggleClass('open');
-        });
-
-        //Hide Sidebar
-        hiddenBarCloser.on('click', function() {
-            hiddenBar.toggleClass('visible-sidebar');
-            navToggler.toggleClass('open');
-        });
-    }
-
-
-
 
     // Popular Causes Progress Bar
     if ($('.count-bar').length) {
@@ -521,187 +499,13 @@
         });
     }
 
-    // One item carousel
-    if ($('.one-item-carousel').length) {
-        $('.one-item-carousel').owlCarousel({
-            loop: true,
-            margin: 0,
-            mouseDrag: false,
-            dots: true,
-            nav: true,
-            smartSpeed: 500,
-            autoplay: true,
-            autoplayTimeout: 9000,
-            navText: ['<span class="fas fa-angle-left"></span>', '<span class="fas fa-angle-right"></span>'],
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 1
-                },
-                1024: {
-                    items: 1
-                }
-            }
-        });
-    }
-
-    // Two item carousel
-    if ($('.two-item-carousel').length) {
-        var myCarousel3 = $('.two-item-carousel');
-        var nextBtn3 = $('.carousel-nav-btn-s-1-next3');
-        var prevBtn3 = $('.carousel-nav-btn-s-1-prev3');
-        myCarousel3.owlCarousel({
-            loop: true,
-            margin: 0,
-            dots: true,
-            mouseDrag: false,
-            nav: false,
-            smartSpeed: 500,
-            autoplay: true,
-            autoplayTimeout: 9000,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 1
-                },
-                992: {
-                    items: 2
-                }
-            }
-        });
-        nextBtn3.on('click', function () {
-            myCarousel3.trigger('next.owl.carousel', [300]);
-            return false;
-        });
-        prevBtn3.on('click', function () {
-            myCarousel3.trigger('prev.owl.carousel', [300]);
-            return false;
-        });
-    }
-
-    // Three item carousel
-    if ($('.three-item-carousel').length) {
-        $('.three-item-carousel').owlCarousel({
-            loop: true,
-            margin: 0,
-            dots: true,
-            mouseDrag: false,
-            nav: true,
-            smartSpeed: 500,
-            autoplay: true,
-            autoplayTimeout: 9000,
-            navText: ['<span class="fas fa-angle-left"></span>', '<span class="fas fa-angle-right"></span>'],
-            responsive: {
-                0: {
-                    items: 1
-                },
-                768: {
-                    items: 2
-                },
-                992: {
-                    items: 3
-                }
-            }
-        });
-    }
-
-    // Four item carousel
-    if ($('.four-item-carousel').length) {
-        $('.four-item-carousel').owlCarousel({
-            loop: true,
-            margin: 0,
-            dots: true,
-            mouseDrag: false,
-            nav: true,
-            smartSpeed: 500,
-            autoplay: true,
-            autoplayTimeout: 9000,
-            navText: ['<span class="fas fa-angle-left"></span>', '<span class="fas fa-angle-right"></span>'],
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                768: {
-                    items: 3
-                },
-                992: {
-                    items: 4
-                }
-            }
-        });
-    }
-
-    // Five item carousel
-    if ($('.five-item-carousel').length) {
-        $('.five-item-carousel').owlCarousel({
-            loop: true,
-            margin: 0,
-            dots: true,
-            mouseDrag: false,
-            nav: true,
-            smartSpeed: 500,
-            autoplay: true,
-            autoplayTimeout: 9000,
-            navText: ['<span class="fas fa-angle-left"></span>', '<span class="fas fa-angle-right"></span>'],
-            responsive: {
-                0: {
-                    items: 1
-                },
-                600: {
-                    items: 2
-                },
-                768: {
-                    items: 3
-                },
-                992: {
-                    items: 4
-                },
-                1199: {
-                    items: 5
-                }
-            }
-        });
-    }
-
-    if ($('.mission-item-carousel').length) {
-        $('.mission-item-carousel').owlCarousel({
-            loop: true,
-            margin: 0,
-            dots: true,
-            mouseDrag: false,
-            nav: true,
-            smartSpeed: 500,
-            autoplay: true,
-            autoplayTimeout: 9000,
-            navText: ['<span class="fas fa-angle-left"></span>', '<span class="fas fa-angle-right"></span>'],
-            responsive: {
-                0: {
-                    items: 1
-                },
-                1200: {
-                    items: 2
-                },
-                1600: {
-                    items: 3
-                }
-            }
-        });
-    }
-
     if ($('.causes-item-carousel').length) {
         
         var myCarousel1 = $('.causes-item-carousel');
         var nextBtn1 = $('.carousel-nav-btn-s-1-next1');
         var prevBtn1 = $('.carousel-nav-btn-s-1-prev1');
         myCarousel1.owlCarousel({
-            loop: false,
+            loop: true,
             margin: 30,
             dots: true,
             mouseDrag: false,
@@ -727,11 +531,11 @@
         });
         
         nextBtn1.on('click', function () {
-            myCarousel1.trigger('next.owl.carousel', [300]);
+            $(this).closest('.theme_container').find('.owl-carousel').trigger('next.owl.carousel', [300]);
             return false;
         });
         prevBtn1.on('click', function () {
-            myCarousel1.trigger('prev.owl.carousel', [300]);
+            $(this).closest('.theme_container').find('.owl-carousel').trigger('prev.owl.carousel', [300]);
             return false;
         });
     }
@@ -739,10 +543,10 @@
     if ($('.causes-item-carousel-fresh').length) {
         
         var myCarousel1 = $('.causes-item-carousel-fresh');
-        var nextBtn1 = $('.carousel-nav-btn-next-fresh');
-        var prevBtn1 = $('.carousel-nav-btn-prev-fresh');
+        var nextBtn1 = $('.carousel-nav-btn-s-1-next-fresh');
+        var prevBtn1 = $('.carousel-nav-btn-s-1-prev-fresh');
         myCarousel1.owlCarousel({
-            loop: false,
+            loop: true,
             margin: 30,
             dots: true,
             mouseDrag: false,
@@ -768,11 +572,11 @@
         });
         
         nextBtn1.on('click', function () {
-            myCarousel1.trigger('next.owl.carousel', [300]);
+            $(this).closest('.theme_container').find('.owl-carousel').trigger('next.owl.carousel', [300]);
             return false;
         });
         prevBtn1.on('click', function () {
-            myCarousel1.trigger('prev.owl.carousel', [300]);
+            $(this).closest('.theme_container').find('.owl-carousel').trigger('prev.owl.carousel', [300]);
             return false;
         });
     }
@@ -780,10 +584,10 @@
     if ($('.causes-item-carousel-oluyole').length) {
         
         var myCarousel1 = $('.causes-item-carousel-oluyole');
-        var nextBtn1 = $('.carousel-nav-btn-next-oluyole');
-        var prevBtn1 = $('.carousel-nav-btn-prev-oluyole');
+        var nextBtn1 = $('.carousel-nav-btn-s-1-next-oluyole');
+        var prevBtn1 = $('.carousel-nav-btn-s-1-prev-oluyole');
         myCarousel1.owlCarousel({
-            loop: false,
+            loop: true,
             margin: 30,
             dots: true,
             mouseDrag: false,
@@ -809,20 +613,19 @@
         });
         
         nextBtn1.on('click', function () {
-            myCarousel1.trigger('next.owl.carousel', [300]);
+            $(this).closest('.theme_container').find('.owl-carousel').trigger('next.owl.carousel', [300]);
             return false;
         });
         prevBtn1.on('click', function () {
-            myCarousel1.trigger('prev.owl.carousel', [300]);
+            $(this).closest('.theme_container').find('.owl-carousel').trigger('prev.owl.carousel', [300]);
             return false;
         });
     }
 
+
     if ($('.causes-item-carousel-amuludun').length) {
         
         var myCarousel1 = $('.causes-item-carousel-amuludun');
-        // var nextBtn1 = $('.carousel-nav-btn-s-1-next-amuludun');
-        // var prevBtn1 = $('.carousel-nav-btn-s-1-prev-amuludun');
         myCarousel1.owlCarousel({
             loop: false,
             margin: 30,
@@ -848,58 +651,7 @@
                 }
             }
         });
-        
-        // nextBtn1.on('click', function () {
-        //     myCarousel1.trigger('next.owl.carousel', [300]);
-        //     return false;
-        // });
-        // prevBtn1.on('click', function () {
-        //     myCarousel1.trigger('prev.owl.carousel', [300]);
-        //     return false;
-        // });
     }
-
-    if ($('.causes-item-carousel2').length) {
-        
-        var myCarousel2 = $('.causes-item-carousel2');
-        var nextBtn2 = $('.carousel-nav-btn-s-1-next2');
-        var prevBtn2 = $('.carousel-nav-btn-s-1-prev2');
-        myCarousel2.owlCarousel({
-            loop: false,
-            margin: 30,
-            dots: true,
-            mouseDrag: false,
-            nav: true,
-            smartSpeed: 500,
-            autoplay: true,
-            autoplayTimeout: 9000,
-            navText: ['<span class="fas fa-angle-left"></span>', '<span class="fas fa-angle-right"></span>'],
-            responsive: {
-                0: {
-                    items: 1
-                },
-                992: {
-                    items: 2
-                },
-                1200: {
-                    items: 3
-                },
-                1600: {
-                    items: 4
-                }
-            }
-        });
-        
-        nextBtn2.on('click', function () {
-            myCarousel2.trigger('next.owl.carousel', [300]);
-            return false;
-        });
-        prevBtn2.on('click', function () {
-            myCarousel2.trigger('prev.owl.carousel', [300]);
-            return false;
-        });
-    }
-
 
 
     //Progress Bar / Levels
@@ -948,9 +700,14 @@
 
     $('.donation-form-one-price-value').on('click', function(e) {
         e.preventDefault();
-        $('.active-price-value').removeClass('active-price-value');
-        $('.other-input').hide().siblings('#other').show();
-        $(this).filter('.donation-form-one-price-value').addClass("active-price-value");
+        if($(this).hasClass('active-price-value')){
+            $('.active-price-value').removeClass('active-price-value');
+            $('.other-input').show();
+        }else {
+            $('.active-price-value').removeClass('active-price-value');
+            $(this).filter('.donation-form-one-price-value').addClass("active-price-value");
+            $('.other-input').hide();
+        }
         var value = $(this).data('impact');
         $(this).closest('div').find('p').text("" + value);
         $('.other-input').find('input').val('');  
@@ -959,6 +716,7 @@
     $('.donate_button').on('click', function() {
         var dollar;
         var input = $('.other-input').find('input').val();
+        console.log(input)
         if ( !input ) {
         dollar = $('.active-price-value').data('dollars');
         } else if ( $.trim(input) === '' || isNaN(input)) {

@@ -36,7 +36,8 @@
 	line-height: inherit;
 }
 :root {
-	--primary_font: 'Roboto', sans-serif;
+	--primary_font: 'Montserrat', sans-serif;
+	/* --primary_font: 'Roboto', sans-serif; */
 	--secondary_font: 'Inter', sans-serif;
 }
 body {
@@ -2134,7 +2135,8 @@ section.about .top-title span {
 	line-height: 1.2em;
 	color: transparent;
 	font-weight: 700;
-	font-family: var(--primary_font);
+	font-family: Roboto;
+	/* font-family: var(--primary_font); */
 	text-align: center;
 	-webkit-text-stroke: 1px rgb(35 35 35 / 30%);
 }
@@ -2645,7 +2647,8 @@ section.cta .bg {
 	font-size: 150px;
 	line-height: 150px;
 	font-weight: 700;
-	font-family: var(--primary_font);
+	/* font-family: var(--primary_font); */
+	font-family: Roboto;
 	text-align: center;
 	color: transparent;
 	-webkit-text-stroke: 1px #232323;
@@ -3798,7 +3801,7 @@ section.team-section {
 	padding: 34px 40px;
 }
 .team-block .text {
-	border-bottom: 1px solid #efeff0;
+	border-bottom: 1px solid #dddddd;
 	max-width: 221px;
 	padding-bottom: 22px;
 }
@@ -8128,7 +8131,8 @@ ul.header-top-contact-info p {
 	letter-spacing: -1px;
 	color: #ffffff;
 	font-weight: 700;
-	font-family: "Roboto";
+	font-family: "Montserrat";
+	/* font-family: "Roboto"; */
 }
 ul.header-top-contact-info p a {
 	color: #fff;
@@ -8308,7 +8312,8 @@ section.nature-section .theme_container {
 	font-size: 16px;
 	color: #ffffff;
 	font-weight: 400;
-	font-family: "Roboto";
+	font-family: "Montserrat";
+	/* font-family: "Roboto"; */
 	margin-top: 28px;
 }
 .nature-block-three .bottom-text i {
@@ -8325,7 +8330,8 @@ section.nature-section .theme_container {
 	font-size: 16px;
 	color: #ffffff;
 	font-weight: 400;
-	font-family: "Roboto";
+	font-family: "Montserrat";
+	/* font-family: "Roboto"; */
 	margin-top: 18px;
 }
 .nature-block-three .bottom-text i {
@@ -8465,6 +8471,8 @@ section.event-section .button-three {
 	background: #fff;
 	padding: 50px;
 	width: 100%;
+	height:100%;
+	overflow: auto;
 	position: relative;
 	margin: 0 auto;
 }
