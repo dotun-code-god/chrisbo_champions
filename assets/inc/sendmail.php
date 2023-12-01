@@ -15,8 +15,8 @@ $mail->Host = $_SERVER['MAIL_HOST'];  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                                             // Enable SMTP authentication
 $mail->Username = $_SERVER['MAIL_USERNAME'];          // SMTP username
 $mail->Password = $_SERVER['MAIL_PASSWORD'];             // SMTP password
-$mail->SMTPSecure = true;                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 465;                                    // TCP port to connect to
+$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 587;                                    // TCP port to connect to
 
 $message = "";
 $status = "false";

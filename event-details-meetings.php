@@ -93,7 +93,7 @@
                     <div class="inner-container">
                         <div class="left-column">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/images/hb_logo1.jpg" class="rounded-circle" alt="logo"></a>
+                                <a href="index.php"><img src="assets/images/hb_logo1.jpg" class="rounded-circle" alt="logo"></a>
                             </div>
                             <!--Nav Box-->
                             <div class="nav-outer">
@@ -105,9 +105,9 @@
                                 <nav class="main-menu navbar-expand-md navbar-light">
                                     <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                         <ul class="navigation">
-                                            <li><a href="index.html">Home </a></li>
-                                            <li><a href="faq.html">FAQs</a></li>
-                                            <li><a href="event.html">Events</a></li>
+                                            <li><a href="index.php">Home </a></li>
+                                            <li><a href="faq.php">FAQs</a></li>
+                                            <li><a href="event.php">Events</a></li>
                                             <li><a href="contact.php">Contact</a></li>
                                         </ul>
                                     </div>
@@ -117,7 +117,7 @@
 
 
                         <div class="right-column">
-                            <a href="donate.html" class="primary_btn style-seven">Donate Now<i class="far fa-heart"></i></a>
+                            <a href="donate.php" class="primary_btn style-seven">Donate Now<i class="far fa-heart"></i></a>
                         </div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
                         <div class="inner-container">
                             <div class="left-column">
                                 <div class="logo">
-                                    <a href="index.html"><img src="assets/images/logo-light.png" alt=""></a>
+                                    <a href="index.php"><img src="assets/images/logo-light.png" alt=""></a>
                                 </div>
                                 <!--Nav Box-->
                                 <div class="nav-outer">
@@ -147,7 +147,7 @@
 
 
                             <div class="right-column">
-                                <a href="donate.html" class="primary_btn style-seven">Donate Now<i class="far fa-heart"></i></a>
+                                <a href="donate.php" class="primary_btn style-seven">Donate Now<i class="far fa-heart"></i></a>
                             </div>
                         </div>
                     </div>
@@ -161,7 +161,7 @@
                 <div class="close-btn"><i class="icon far fa-times"></i></div>
 
                 <nav class="menu-box">
-                    <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-light.png" alt=""
+                    <div class="nav-logo"><a href="index.php"><img src="assets/images/logo-light.png" alt=""
                                 title=""></a></div>
                     <div class="menu-outer"></div>
                 </nav>
@@ -183,7 +183,7 @@
                             <h1>Monthly Meetings</h1>
                         </div>
                         <ul class="bread-crumb">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.php">Home</a></li>
                             <li>Event Details</li>
                         </ul>
                     </div>
@@ -203,19 +203,12 @@
                                 <img src="assets/images/resource/Event_Details_Meeting.jpg" alt="">
                             </div>
                             <h4>Every Second Saturday of the Month</h4>
-                            <div class="text-two">w Sed ut perspiciatis unde omnis iste natus error voluptatem
-                                accusantium doloremque laudantiue totam rem aperiam eaque ipsa quae abillo inventore
-                                veritatis et quasi architecto beatae vitae dic sunt explicabo enim ipsam voluptatem quia
-                                voluptas sit aspernatur</div>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                                sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                                voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                                amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut
-                                labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-                                nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-                                consequatur</p>
+                            <div class="text-two">C
+                                Champions Club prioritizes weekly meetings every Saturday, providing a crucial platform for individuals with sickle cell anemia. These gatherings serve as a nexus for comprehensive support, offering free medical services such as PCV checks, Folic acid, analgesics, and immune-boosting medications tailored to combat the challenges they are facing. The club's strategic partnership with TBDN further ensures that members have access to free blood when required, forming a vital lifeline for those in need.
+                            </div>
+                            <p>
+                                Beyond the tangible health benefits, these regular Saturday meetings foster a community of education, awareness, and emotional encouragement. By organizing these gatherings, Champions Club not only addresses the immediate health needs of its members but also creates a sustained network of support, significantly impacting the quality of life for individuals facing the complexities of sickle cell anemia.
+                            </p>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="image-block">
@@ -227,19 +220,16 @@
                                         <img src="assets/images/resource/Event_Details_Meeting_7.jpg" alt="">
                                     </div>
                                 </div>
-                                <h4>Why Need Event & Conference</h4>
-                                <div class="text-three">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                                    aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                                    nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
-                                    consectetur, adipisci velit sed quia non numquam eius modi tempora</div>
+                                <h4>Why Attend Our Monthly Meetings</h4>
+                                <div class="text-three">
+                                    Attending Champions Club meetings is essential for individuals living with sickle cell anemia, as it offers a supportive community and valuable benefits. Over three years, Champions Club has successfully created a caring environment, offering discounted hospital bills and building a community of hope for its members.
+                                </div>
                                 <div class="icon-box">
                                     <ul>
-                                        <li><i class="far fa-check-circle"></i>Optimizations For Keyboard-Only And
-                                            Assistive Technology Users</li>
-                                        <li><i class="far fa-check-circle"></i>A Practical Guide To SVG And Design Tools
-                                        </li>
-                                        <li><i class="far fa-check-circle"></i>Better Notifications And Permission
-                                            Requests</li>
+                                        <li><i class="far fa-check-circle"></i>Free medical essential support</li>
+                                        <li><i class="far fa-check-circle"></i>Free PCV checks</li>
+                                        <li><i class="far fa-check-circle"></i>Immune boosting medications</li>
+                                        <li><i class="far fa-check-circle"></i>Free drugs and medications</li>
                                     </ul>
                                 </div>
                             </div>
@@ -314,6 +304,9 @@
         <section class="partner">
             <div class="bg" style="background-image: url(assets/images/background/cta.jpg);"></div>
             <div class="theme_container">
+                <div class="title-box" style="padding:0 15px;">
+                    <h2 class="sec-title mb-56">Partners</h2>
+                </div>
                 <div class="three-item-carousel owl-theme owl-carousel sponsors-carousel">
 
                     <div class="image"><img src="assets/images/resource/bml.jpg" alt=""></div>
@@ -324,191 +317,8 @@
             </div>
         </section>
 
-        <!-- start footer conter section -->
-        <div class="section-footer-counter-section">
-            <div class="theme_container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="footer-counter-block">
-                            <div class="count-outer count-box">
-                                <span class="crl3">You can sponsor a champion</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="donation-form-one-form-wrap s-two">
-                            <ul class="donation-form-one-form-wrap-ul donate_form_amount_wrap">
-                                <li class="donation-form-one-price-value" data-dollars='5000'>N5000</li>
-                                <li class="donation-form-one-price-value" data-dollars='10000'>N10,000</li>
-                                <li class="donation-form-one-price-value" data-dollars='15000'>N15,000</li>
-                                <li class="donation-form-one-price-value" data-dollars='20000'>N20,000</li>
-                                <div class="other-input about-section-two-input-box">
-                                    <input placeholder="Email Amount" class="amount-input-footer input">
-                                </div>
-                            </ul>
-                            <div class="donation-form-one-submit-btn" style="margin-top:10px;"><a href="donate.html"><button
-                                        class="primary_btn-one donate_button">Donate Now<i class="far fa-heart"></i></button></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <?php include_once('footer.php'); ?>
         
-        
-        
-        <!--Start Main Footer -->
-        <footer class="main-footer">
-            <div class="main-footer-top">
-                <div class="theme_container">
-                    <div class="widgets-section">
-                        <div class="row clearfix">
-        
-                            <!--Start Footer Widget Item-->
-                            <div class="col-xl-3 col-md-6 wow animated fadeInUp" data-wow-delay="0.1s">
-                                <div class="footer-widget-item">
-                                    <div class="title">
-                                        <h2>About Us</h2>
-                                    </div>
-        
-                                    <div class="our-info">
-                                        <div class="text">
-                                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusanum
-                                                doloremue laudantiue totame</p>
-                                        </div>
-                                    </div>
-        
-                                    <div class="icon-list">
-                                        <ul>
-                                            <li>
-                                                <div class="icon"><i class="far fa-map-marker-alt"></i></div>
-                                                <div class="text-location">Chrisbo Medical Center, 68, Akobo Road, Beside ACE
-                                                    Supermarket, Ibadan.</div>
-                                            </li>
-                                            <li>
-                                                <div class="icon"><i class="far fa-envelope"></i></div>
-                                                <div class="text"><a
-                                                        href="mailto:chrisbochampion@gmail.com">chrisbochampion@gmail.com</a>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="icon"><i class="far fa-phone"></i></div>
-                                                <div class="text">
-                                                    <a href="tel:08023114607">+234 802 311 4607, </a>
-                                                    <a href="tel:07062651391">+234 706 265 1391, </a>
-                                                    <a href="tel:07063250546">+234 706 325 0546</a>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </div>
-        
-                                </div>
-                            </div>
-                            <!--End Footer Widget Item-->
-        
-                            <!--Start Footer Widget Item-->
-                            <div class="col-xl-6 col-md-6 wow animated fadeInUp" data-wow-delay="0.3s">
-                                <div class="footer-widget">
-                                    <div class="title">
-                                        <h2>Requirements For Champion Monthly Meetings</h2>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-xl-6">
-                                            <div class="icon-list">
-                                                <ul>
-                                                    <li><a href="donate.html"><i
-                                                                class="far fa-arrow-right"></i>Needles and Syringes</a></li>
-                                                    <li><a href="donate.html"><i
-                                                                class="far fa-arrow-right"></i>Disposable Gloves</a></li>
-                                                    <li><a href="donate.html"><i class="far fa-arrow-right"></i>Cotton
-                                                            Swabs</a></li>
-                                                    <li><a href="donate.html"><i
-                                                                class="far fa-arrow-right"></i>Bottled Water</a></li>
-                                                    <li><a href="donate.html"><i class="far fa-arrow-right"></i>Folic
-                                                            Acid Tablet</a></li>
-                                                    <li><a href="donate.html"><i
-                                                                class="far fa-arrow-right"></i>Banadol Tablets</a></li>
-                                                    <li><a href="donate.html"><i
-                                                                class="far fa-arrow-right"></i>Vitamin C Tablets</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="col-xl-6">
-                                            <div class="icon-list">
-                                                <ul>
-                                                    <li><a href="donate.html"><i class="far fa-arrow-right"></i>Zinc
-                                                            Tablets</a></li>
-                                                    <li><a href="donate.html"><i
-                                                                class="far fa-arrow-right"></i>Diclofenac Tablets</a></li>
-                                                    <li><a href="donate.html"><i
-                                                                class="far fa-arrow-right"></i>Methylated Spirit</a></li>
-                                                    <li><a href="donate.html"><i class="far fa-arrow-right"></i>EDTA
-                                                            Bottle</a></li>
-                                                    <li><a href="donate.html"><i
-                                                                class="far fa-arrow-right"></i>Jik</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Footer Widget Item-->
-        
-                            <!--Start Footer Widget Item-->
-                            <div class="col-xl-3 col-md-6 wow animated fadeInUp" data-wow-delay="0.5s">
-                                <div class="footer-widget-item-2 mar-l13">
-                                    <div class="title">
-                                        <h2>Social Media Handles</h2>
-                                    </div>
-        
-                                    <div class="footer-widget-newsletter">
-                                        <p>Follow us on all our social media handles to stay updated on recent updates from us
-                                        </p>
-                                        <div class="social-link">
-                                            <ul>
-                                                <li><a
-                                                        href="https://www.facebook.com/profile.php?id=100062839496602&mibextid=ZbWKwL"><i
-                                                            class="fab fa-facebook-f"></i></a>
-                                                </li>
-        
-                                                <!-- <li><a href="#"><i class="fab fa-twitter"></i></a>
-                                                    </li> -->
-        
-                                                <li><a href="https://instagram.com/chrisbochampions?igshid=OGY3MTU3OGY1Mw=="><i
-                                                            class="fab fa-instagram"></i></a>
-                                                </li>
-        
-                                                <li><a
-                                                        href="https://www.linkedin.com/in/chrisbo-champions?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
-                                                            class="fab fa-linkedin-in"></i></a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-        
-                                </div>
-                            </div>
-                            <!--End Footer Widget Item-->
-        
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-        
-            <!--Start Main Footer Bottom -->
-            <div class="main-footer-bottom">
-                <div class="theme_container">
-                    <div class="main-footer-bottom-inner">
-                        <div class="text" style="margin:0 auto">
-                            <p>Copyright © 2023 Chrisbo Hb Champions. All Rights Reserved.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Main Footer Bottom -->
-        </footer>
-        <!--End Main Footer -->
-
     </div>
     <!--End pagewrapper-->
 

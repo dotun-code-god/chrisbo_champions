@@ -25,11 +25,11 @@
     <link href="assets/css/fontawesome-all.css" rel="stylesheet">
     <link href="assets/css/custom-animate.css" rel="stylesheet">
     <link href="assets/css/animate.css" rel="stylesheet">
-    <link href="assets/css/jquery-ui-1.9.2.custom.min.css" rel="stylesheet">
-    <link href="assets/css/nice-select.css" rel="stylesheet">
-    <link href="assets/css/flaticon.css" rel="stylesheet">
+    <!-- <link href="assets/css/jquery-ui-1.9.2.custom.min.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/nice-select.css" rel="stylesheet"> -->
+    <!-- <link href="assets/css/flaticon.css" rel="stylesheet"> -->
     <link href="assets/css/owl.css" rel="stylesheet">
-    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <!-- <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet"> -->
     <link href="assets/css/swiper.min.css" rel="stylesheet">
     <link href="assets/css/custom-menu.css" rel="stylesheet">
 
@@ -90,7 +90,7 @@
                 <div class="inner-container">
                     <div class="left-column">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/images/hb_logo1.jpg" class="rounded-circle" alt="logo"></a>
+                            <a href="index.php"><img src="assets/images/hb_logo1.jpg" class="rounded-circle" alt="logo"></a>
                         </div>
                         <!--Nav Box-->
                         <div class="nav-outer">
@@ -101,9 +101,9 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation">
-                                        <li><a href="index.html">Home </a> </li>
-                                        <li><a href="faq.html">FAQs</a></li>
-                                        <li><a href="event.html">Events</a></li>                                      
+                                        <li><a href="index.php">Home </a> </li>
+                                        <li><a href="faq.php">FAQs</a></li>
+                                        <li><a href="event.php">Events</a></li>                                      
                                         <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </div>
@@ -113,7 +113,7 @@
                     
                     
                     <div class="right-column">
-                        <a href="donate.html" class="primary_btn style-seven">Donate Now<i class="far fa-heart"></i></a>
+                        <a href="donate.php" class="primary_btn style-seven">Donate Now<i class="far fa-heart"></i></a>
                     </div>                     
                 </div>
             </div>
@@ -127,7 +127,7 @@
                     <div class="inner-container">
                         <div class="left-column">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/images/hb_logo1.jpg" class="rounded-circle" alt="logo"></a>
+                                <a href="index.php"><img src="assets/images/hb_logo1.jpg" class="rounded-circle" alt="logo"></a>
                             </div>
                             <!--Nav Box-->
                             <div class="nav-outer">
@@ -142,7 +142,7 @@
                         
                         
                         <div class="right-column">
-                            <a href="donate.html" class="primary_btn style-seven">Donation<i class="far fa-heart"></i></a>
+                            <a href="donate.php" class="primary_btn style-seven">Donation<i class="far fa-heart"></i></a>
                         </div>                     
                     </div>
                 </div>
@@ -156,7 +156,7 @@
             <div class="close-btn"><i class="icon far fa-times"></i></div>
             
             <nav class="menu-box">
-                <a href="index.html"><img src="assets/images/hb_logo1.jpg" class="rounded-circle" alt="logo"></a>
+                <a href="index.php"><img src="assets/images/hb_logo1.jpg" class="rounded-circle" alt="logo"></a>
                 <div class="menu-outer"></div>
             </nav>
         </div><!-- End Mobile Menu -->
@@ -178,7 +178,7 @@
                         <h1>Contact Us</h1>
                     </div>
                     <ul class="bread-crumb">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li>Contact</li>
                     </ul>
                 </div>
@@ -208,7 +208,7 @@
                         <div class="content">
                             <h4>Make Donations</h4>
                             <div class="text">Amet consectetur adipiscings eiusmod tempor facilisis. </div>
-                            <div class="contact-button"><a href="donate.html">Donate Now <i class="far fa-arrow-right"></i></a></div>
+                            <div class="contact-button"><a href="donate.php">Donate Now <i class="far fa-arrow-right"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -336,7 +336,7 @@
                                 <input placeholder="Email Amount" class="amount-input-footer input">
                             </div>
                         </ul>
-                        <div class="donation-form-one-submit-btn" style="margin-top:10px;"><a href="donate.html"><button
+                        <div class="donation-form-one-submit-btn" style="margin-top:10px;"><a href="donate.php"><button
                                     class="primary_btn-one donate_button">Donate Now<i class="far fa-heart"></i></button></a></div>
                     </div>
                 </div>
@@ -405,19 +405,19 @@
                                     <div class="col-xl-6">
                                         <div class="icon-list">
                                             <ul>
-                                                <li><a href="donate.html"><i
+                                                <li><a href="donate.php"><i
                                                             class="far fa-arrow-right"></i>Needles and Syringes</a></li>
-                                                <li><a href="donate.html"><i
+                                                <li><a href="donate.php"><i
                                                             class="far fa-arrow-right"></i>Disposable Gloves</a></li>
-                                                <li><a href="donate.html"><i class="far fa-arrow-right"></i>Cotton
+                                                <li><a href="donate.php"><i class="far fa-arrow-right"></i>Cotton
                                                         Swabs</a></li>
-                                                <li><a href="donate.html"><i
+                                                <li><a href="donate.php"><i
                                                             class="far fa-arrow-right"></i>Bottled Water</a></li>
-                                                <li><a href="donate.html"><i class="far fa-arrow-right"></i>Folic
+                                                <li><a href="donate.php"><i class="far fa-arrow-right"></i>Folic
                                                         Acid Tablet</a></li>
-                                                <li><a href="donate.html"><i
+                                                <li><a href="donate.php"><i
                                                             class="far fa-arrow-right"></i>Banadol Tablets</a></li>
-                                                <li><a href="donate.html"><i
+                                                <li><a href="donate.php"><i
                                                             class="far fa-arrow-right"></i>Vitamin C Tablets</a></li>
                                             </ul>
                                         </div>
@@ -425,15 +425,15 @@
                                     <div class="col-xl-6">
                                         <div class="icon-list">
                                             <ul>
-                                                <li><a href="donate.html"><i class="far fa-arrow-right"></i>Zinc
+                                                <li><a href="donate.php"><i class="far fa-arrow-right"></i>Zinc
                                                         Tablets</a></li>
-                                                <li><a href="donate.html"><i
+                                                <li><a href="donate.php"><i
                                                             class="far fa-arrow-right"></i>Diclofenac Tablets</a></li>
-                                                <li><a href="donate.html"><i
+                                                <li><a href="donate.php"><i
                                                             class="far fa-arrow-right"></i>Methylated Spirit</a></li>
-                                                <li><a href="donate.html"><i class="far fa-arrow-right"></i>EDTA
+                                                <li><a href="donate.php"><i class="far fa-arrow-right"></i>EDTA
                                                         Bottle</a></li>
-                                                <li><a href="donate.html"><i
+                                                <li><a href="donate.php"><i
                                                             class="far fa-arrow-right"></i>Jik</a></li>
                                             </ul>
                                         </div>
@@ -532,14 +532,14 @@
 
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jquery.fancybox.js"></script>
-    <script src="assets/js/isotope.js"></script>
+    <!-- <script src="assets/js/jquery.fancybox.js"></script> -->
+    <!-- <script src="assets/js/isotope.js"></script> -->
     <script src="assets/js/owl.js"></script>
     <script src="assets/js/appear.js"></script>
     <script src="assets/js/wow.js"></script>
-    <script src="assets/js/swiper.min.js"></script>
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/knob.js"></script>
+    <!-- <script src="assets/js/swiper.min.js"></script> -->
+    <!-- <script src="assets/js/jquery.ajaxchimp.min.js"></script> -->
+    <!-- <script src="assets/js/knob.js"></script> -->
     <script src="assets/js/TweenMax.min.js"></script>
     <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/active.js"></script>
