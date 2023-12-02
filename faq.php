@@ -102,8 +102,10 @@
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation">
                                         <li><a href="index.php">Home </a></li>
+                                        <li><a href="about.php">About</a></li>                                      
                                         <li><a href="faq.php">FAQs</a></li>
-                                        <li><a href="event.php">Event</a></li>                                      
+                                        <li><a href="event.php">Event</a></li> 
+                                        <li><a href="resources.php">Resources</a></li>                                      
                                         <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </div>
@@ -822,7 +824,7 @@
                     <div class="title">
                         <h2>Make Donations</h2>
                     </div>
-                    <div class="text">You can help the foundation by donating the little you can, it all counts</div>
+                    <div class="text">Your contributions make a lasting impact</div>
                     <div class="link-btn"><a href="donate.php" class="primary_btn-one">Donate Now<i class="far fa-heart"></i></a></div>
                 </div>
                 <!--End Serivces block Three Single-->

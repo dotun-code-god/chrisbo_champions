@@ -104,8 +104,10 @@
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation">
                                         <li><a href="index.php">Home </a> </li>
+                                        <li><a href="about.php">About</a></li>                                      
                                         <li><a href="faq.php">FAQs</a></li>
                                         <li><a href="event.php">Events</a></li>
+                                        <li><a href="resources.php">Resources</a></li>                                      
                                         <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </div>
@@ -332,15 +334,15 @@
 
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!-- <script src="assets/js/jquery.fancybox.js"></script> -->
-    <!-- <script src="assets/js/isotope.js"></script> -->
-    <!-- <script src="assets/js/owl.js"></script> -->
-    <!-- <script src="assets/js/appear.js"></script>
+    <script src="assets/js/jquery.fancybox.js"></script>
+    <script src="assets/js/isotope.js"></script>
+    <script src="assets/js/owl.js"></script>
+    <script src="assets/js/appear.js"></script>
     <script src="assets/js/wow.js"></script>
     <script src="assets/js/swiper.min.js"></script>
     <script src="assets/js/jquery.ajaxchimp.min.js"></script>
     <script src="assets/js/knob.js"></script>
-    <script src="assets/js/TweenMax.min.js"></script>-->
+    <script src="assets/js/TweenMax.min.js"></script>
     <script src="assets/js/jquery.nice-select.min.js"></script> 
     <script src="assets/js/active.js"></script>
 

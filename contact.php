@@ -51,6 +51,9 @@
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
 
+    <!-- reCAPTCHA v3 -->
+     <script src="https://www.google.com/recaptcha/api.js?render=6LdaNSQpAAAAAAODPgR3XroopgEJ1gyLUac8yv51"></script>
+
     <!-- Responsive -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
@@ -102,8 +105,10 @@
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation">
                                         <li><a href="index.php">Home </a> </li>
+                                        <li><a href="about.php">About</a></li>                                      
                                         <li><a href="faq.php">FAQs</a></li>
-                                        <li><a href="event.php">Events</a></li>                                      
+                                        <li><a href="event.php">Events</a></li>       
+                                        <li><a href="resources.php">Resources</a></li>                                      
                                         <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </div>
@@ -207,7 +212,7 @@
                         <div class="icon-box"><i class="flaticon-solidarity-1"></i></div>
                         <div class="content">
                             <h4>Make Donations</h4>
-                            <div class="text">Amet consectetur adipiscings eiusmod tempor facilisis. </div>
+                            <div class="text">Your contributions make a lasting impact</div>
                             <div class="contact-button"><a href="donate.php">Donate Now <i class="far fa-arrow-right"></i></a></div>
                         </div>
                     </div>
@@ -291,7 +296,10 @@
                             </div>                        
                             <div class="form-group col-md-12">
                                 <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                <button class="primary_btn btn-style-one" type="submit" data-loading-text="Please wait..."><span>Send a Message</span></button>
+                                <button class="g-recaptcha primary_btn btn-style-one" type="submit" 
+                                    data-sitekey="6LdaNSQpAAAAAAODPgR3XroopgEJ1gyLUac8yv51" 
+                                    data-callback='onSubmit' 
+                                    data-action='submit' data-loading-text="Please wait..."><span>Send a Message</span></button>
                             </div>
                         </div>
                     </form>
@@ -529,6 +537,12 @@
     <a href="# " class="back-to-top " data-wow-duration="1.0s " data-wow-delay="1.0s ">
         <i class="fas fa-angle-up "></i>
     </a>
+
+    <script>
+        function onSubmit(token) {
+            document.getElementById("contact-form").submit();
+        }
+    </script>
 
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>

@@ -101,8 +101,10 @@
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation">
                                         <li ><a href="index.php">Home </a></li>
+                                        <li><a href="about.php">About</a></li>                                      
                                         <li><a href="faq.php">FAQs</a></li>                                      
                                         <li><a href="event.php">Events</a></li>                                      
+                                        <li><a href="resources.php">Resources</a></li>                                      
                                         <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </div>
@@ -157,7 +159,8 @@
                 <div class="nav-logo"><a href="index.php"><img src="assets/images/logo-light.png" alt="" title=""></a></div>
                 <div class="menu-outer"></div>
             </nav>
-        </div><!-- End Mobile Menu -->
+        </div>
+        <!-- End Mobile Menu -->
 
         <div class="nav-overlay"></div>
     </header>
@@ -290,7 +293,7 @@
     <section class="features pt-0">
         <div class="bg" style="background-image:url(assets/images/background/child.jpg);"></div>
         <div class="theme_container">
-                <div class="sub-title mb-20"><span class="title-sep-center"><img src="assets/images/resource/icon-4.png" alt=""></span>Our Values
+                <div class="sub-title mb-20"><span class="title-sep-center"><img src="assets/images/resource/icon-4.png" alt=""></span> Our Values
                 </div>
             <div class="row" style="align-items:center">
                 <div class="col-lg-6">
@@ -819,66 +822,6 @@
         </div>
     </div>
 
-    <!-- Meet our Team -->
-    <div class="event-section s-two" style="background-color:#f2eeeb">
-        <div class="title-box" style="padding:50px 15px 0;">
-            <h2 class="sec-title mb-56">Meet The Team</h2>
-        </div>
-        <div class="theme_container" style="margin-top:50px;">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="team-block">
-                        <img src="assets/images/resource/team.jpg" alt="">
-                        <div class="team-content">
-                            <h4>Dr. Bose Ola</h4>
-                            <div class="designation">Chairman</div>
-                            <div class="text" style="padding-bottom:0"></div>
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="team-block">
-                        <img src="assets/images/resource/team-1.jpg" alt="">
-                        <div class="team-content">
-                            <h4>Dr. Femi Akingbola</h4>
-                            <div class="designation">Vice Chairman</div>
-                            <div class="text" style="padding-bottom:0"></div>
-                            <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="button-team text-center">
-                <div class="from-button"><a href="team.php" class="primary_btn-one">View More Team<i
-                            class="far fa-arrow-right"></i></a></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Resources -->
-    <div class="event-section s-two" style="background-color:#fff">
-        <div class="title-box" style="padding:50px 15px 0;">
-            <h2 class="sec-title mb-56">Access our Resources</h2>
-        </div>
-        <div class="theme_container">
-            <div class="resource_cont">
-                <img src="assets/images/resource/resource.jpg" alt="">
-                <div class="download_btn_container">
-                    <a href="download-file.php?file=Frequently_Asked_Question">Download File</a> 
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Partner section -->
     <section class="partner">
         <div class="bg" style="background-image: url(assets/images/background/cta.jpg);"></div>
@@ -900,7 +843,6 @@
     <div class="flyer-hero"></div>
 
     <?php include_once('footer.php'); ?>
-
 
 </div>
 <!--End pagewrapper-->

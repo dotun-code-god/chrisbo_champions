@@ -3426,6 +3426,24 @@ section.why-choose-us.s-two .image {
 .choose-us-block {
 	position: relative;
 }
+.choose-us-block-1 .image_left {
+	width: 300px;
+	height: 453px
+}
+.choose-us-block.s-two .image_right {
+	width: 410px;
+	height: 674px
+}
+.choose-us-block-1 .image_left img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.choose-us-block.s-two .image_right img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 .choose-us-block .content-box {
 	position: absolute;
 	bottom: 50px;
@@ -3700,7 +3718,8 @@ section.what-we-do-section {
 .what-we-do-block h4 {
 	font-size: 24px;
 	letter-spacing: -1px;
-	line-height: 55px;
+	line-height: 30px;
+	margin-bottom: 20px;
 	color: #232323;
 	font-weight: 700;
 }
@@ -3855,6 +3874,15 @@ section.partner.style-six {
 
 .volunteer-block {
 	position: relative;
+}
+.volunteers_corner {
+	width:630px;
+	height:380px;
+}
+.volunteers_corner img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 .volunteer-block .icon {
 	position: absolute;

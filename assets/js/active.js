@@ -499,6 +499,42 @@
         });
     }
 
+    // Two item carousel
+    if ($('.two-item-carousel').length) {
+        var myCarousel3 = $('.two-item-carousel');
+        var nextBtn3 = $('.carousel-nav-btn-s-1-next3');
+        var prevBtn3 = $('.carousel-nav-btn-s-1-prev3');
+        myCarousel3.owlCarousel({
+            loop: true,
+            margin: 0,
+            dots: true,
+            mouseDrag: false,
+            nav: false,
+            smartSpeed: 500,
+            autoplay: true,
+            autoplayTimeout: 9000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                992: {
+                    items: 2
+                }
+            }
+        });
+        nextBtn3.on('click', function () {
+            myCarousel3.trigger('next.owl.carousel', [300]);
+            return false;
+        });
+        prevBtn3.on('click', function () {
+            myCarousel3.trigger('prev.owl.carousel', [300]);
+            return false;
+        });
+    }
+
     // Three item carousel
     if ($('.three-item-carousel').length) {
         $('.three-item-carousel').owlCarousel({

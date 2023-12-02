@@ -3,23 +3,23 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Chrisbo HB Champions Club | Events</title>
+    <title>Chrisbo HB Champions Club | Resources</title>
 
     <!-- Meta Tags -->
     <meta name="description" content="An NGO For Sickle Cell Champions" />
     <meta name="keywords" content="sickle, cell, sickle cell, SS, Hbss, NGO, champions" />
     
     <!-- Facebook meta tags -->
-    <meta property="og:title" content="Chrisbo Champions Club | Events" />
+    <meta property="og:title" content="Chrisbo Champions Club | Resources" />
     <meta property="og:url" content="https://hbchampions.org" />
     <meta property="og:description" content="An NGO For Sickle Cell Champions" />
     <meta property="og:image" content="https://hbchampions.org/assets/images/hb_logo1.jpg" />
     
     <!-- Twitter meta tags -->
-    <meta name="twitter:title" content="Chrisbo Champions Club | Events" />
+    <meta name="twitter:title" content="Chrisbo Champions Club | Resources" />
     <meta name="twitter:description" content="An NGO For Sickle Cell Champions" />
     <meta name="twitter:image:src" content="https://hbchampions.org/assets/images/hb_logo1.jpg" />
-    
+
     <!-- Stylesheets -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/fontawesome-all.css" rel="stylesheet">
@@ -47,6 +47,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
 
+
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
 
@@ -61,16 +62,14 @@
 
     <div class="page-wrapper">
 
-
     <!-- Main Header -->
     <header class="main-header header-s-two">
-        <div class="header-top">
+       <div class="header-top">
             <div class="header-container-box">
                 <div class="wrapper-box">
                     <div class="left-column">
                         <ul class="contact-info box-s-two">
-                            <li><a href="mailto:chrisbochampion@gmail.com"><i
-                                        class="far fa-envelope"><span>Email:</span></i>chrisbochampion@gmail.com</a></li>
+                            <li><a href="mailto:chrisbochampion@gmail.com"><i class="far fa-envelope"><span>Email:</span></i>chrisbochampion@gmail.com</a></li> 
                             <li class="crl-1">|</li>
                         </ul>
                     </div>
@@ -95,56 +94,55 @@
                         <div class="nav-outer">
                             <!--Mobile Navigation Toggler-->
                             <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar.png" alt=""></div>
-        
+
                             <!-- Main Menu -->
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation">
-                                        <li><a href="index.php">Home </a></li>
+                                        <li ><a href="index.php">Home </a></li>
                                         <li><a href="about.php">About</a></li>                                      
-                                        <li><a href="faq.php">FAQs</a></li>
-                                        <li><a href="event.php">Events</a></li>
+                                        <li><a href="faq.php">FAQs</a></li>                                      
+                                        <li><a href="event.php">Events</a></li>   
                                         <li><a href="resources.php">Resources</a></li>                                      
                                         <li><a href="contact.php">Contact</a></li>
                                     </ul>
                                 </div>
-                            </nav>
+                            </nav>  
                         </div>
                     </div>
-        
-        
+                    
+                    
                     <div class="right-column">
                         <a href="donate.php" class="primary_btn style-seven">Donate Now<i class="far fa-heart"></i></a>
-                    </div>
+                    </div>                     
                 </div>
             </div>
         </div>
         <!--End Header Upper-->
 
-        <!-- Sticky Header -->
+        <!-- Sticky Header  -->
         <div class="sticky-header">
             <div class="header-upper">
                 <div class="header-container-box">
                     <div class="inner-container">
                         <div class="left-column">
                             <div class="logo">
-                                <a href="index.php"><img src="assets/images/hb_logo1.jpg" class="rounded-circle"
-                                        alt="logo"></a>
+                                <a href="index.php"><img src="assets/images/hb_logo1.jpg" class="rounded-circle" alt="logo"></a>
                             </div>
                             <!--Nav Box-->
                             <div class="nav-outer">
                                 <!--Mobile Navigation Toggler-->
                                 <div class="mobile-nav-toggler"><img src="assets/images/icons/icon-bar.png" alt=""></div>
-        
+    
                                 <!-- Main Menu -->
                                 <nav class="main-menu navbar-expand-md navbar-light">
-                                </nav>
+                                </nav>  
                             </div>
                         </div>
-        
+                        
                         <div class="right-column">
                             <a href="donate.php" class="primary_btn style-seven">Donate Now<i class="far fa-heart"></i></a>
-                        </div>
+                        </div>                     
                     </div>
                 </div>
             </div>
@@ -157,10 +155,13 @@
             <div class="close-btn"><i class="icon far fa-times"></i></div>
             
             <nav class="menu-box">
-                <a href="index.php"><img src="assets/images/hb_logo1.jpg" class="rounded-circle" alt="logo"></a>
+                <div class="nav-logo"><a href="index.php"><img src="assets/images/logo-light.png" alt="" title=""></a></div>
                 <div class="menu-outer"></div>
             </nav>
-        </div><!-- End Mobile Menu -->
+        </div>
+        <!-- End Mobile Menu -->
+
+        <div class="nav-overlay"></div>
 
         <div class="nav-overlay"></div>
     </header>
@@ -175,11 +176,11 @@
                 <div class="shape-three"><img src="assets/images/resource/icon-3.png" alt=""></div>
                 <div class="content-wrapper">                    
                     <div class="title">
-                        <h1>Upcoming Events</h1>
+                        <h1>Resources</h1>
                     </div>
                     <ul class="bread-crumb">
                         <li><a href="index.php">Home</a></li>
-                        <li>Events</li>
+                        <li>Resources</li>
                     </ul>
                 </div>
             </div>
@@ -187,72 +188,22 @@
     </section>
     <!--End Breadcrumb Section One-->
 
-
-    <!-- event section -->
-    <section class="event-section s-two">
+    <!-- Resources -->
+    <div class="event-section s-two" style="background-color:#fff">
+        <div class="title-box" style="padding:50px 15px 0;">
+            <h2 class="sec-title mb-56">Access our Resources</h2>
+        </div>
         <div class="theme_container">
-            <div class="row">
-                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="events-block-one">
-                        <div class="inner">
-                            <div class="layer-outer" style="background-image: url(assets/images/background/event-bg.jpg);">
-                            </div>
-                            <div class="left">
-                                <div class="date-box">
-                                    <div class="inner-text">
-                                        <h2>Dec</h2>
-                                        <p>09</p>
-                                    </div>
-                                </div>
-            
-                                <div class="middle-text">
-                                    <h5>3rd Year Anniversary</h5>
-                                    <h2><a href="event-details.php">Proper Diagnosis and Prompt Treatment, The Effective Solution
-                                            <br> To A Healthy Life</a> </h2>
-                                    <p>Celebrating her third year anniversary in a grand style</p>
-            
-                                </div>
-                            </div>
-                            <div class="button-three"><a href="event-details.php" class="primary_btn style-five">View Events<i
-                                        class="far fa-arrow-right"></i></a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0ms" data-wow-duration="1500ms">
-                    <div class="events-block-one">
-                        <div class="inner">
-                            <div class="layer-outer" style="background-image: url(assets/images/background/event-bg.jpg);">
-                            </div>
-                            <div class="left">
-                                <div class="date-box">
-                                    <div class="inner-text">
-                                        <h2>Jan</h2>
-                                        <p>13</p>
-                                    </div>
-                                </div>
-            
-                                <div class="middle-text">
-                                    <h5>Chrisbo Champions</h5>
-                                    <h2><a href="event-details-meetings.php">Monthly Check Up</a> </h2>
-                                    <p>Every Second Saturday of the month</p>
-            
-                                </div>
-                            </div>
-                            <div class="button-three"><a href="event-details-meetings.php" class="primary_btn style-five">View
-                                    Events<i class="far fa-arrow-right"></i></a></div>
-                        </div>
-                    </div>
+            <div class="resource_cont">
+                <img src="assets/images/resource/resource.jpg" alt="">
+                <div class="download_btn_container">
+                    <a href="download-file.php?file=Frequently_Asked_Question">Download File</a> 
                 </div>
             </div>
-            <!-- <div class="btn-box text-center">
-                <div class="button-three"><a href="event-details.php" class="primary_btn-ten s-two">Learn More Us<i class="far fa-heart"></i></a></div>
-            </div> -->
         </div>
-    </section>
-
-
+    </div>
+    
     <?php include_once('footer.php'); ?>
-
 
     </div>
     <!--End pagewrapper-->
