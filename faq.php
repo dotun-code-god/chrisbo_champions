@@ -802,8 +802,8 @@
     <!-- company section two -->
     <section class="company-two">
         <div class="theme_container">
-            <div class="row2" style="display:grid; grid-template-columns: 1fr 1fr 1fr; gap:20px">
-                <div class="">
+            <div class="row">
+                <div class="col-md-4">
                     <!--Start Serivces block Three Single-->
                     <div class="serivces-block-three-single text-center">
                     <div class="bg" style="background-image: url(assets/images/resource/faq.jpg);"></div>
@@ -816,7 +816,7 @@
                 </div>
                 <!--End Serivces block Three Single-->
                 </div>
-                <div class="">
+                <div class="col-md-4">
                     <!--Start Serivces block Three Single-->
                     <div class="serivces-block-three-single text-center">
                     <div class="bg" style="background-image: url(assets/images/resource/faq-2.jpg);"></div>
@@ -829,7 +829,7 @@
                 </div>
                 <!--End Serivces block Three Single-->
                 </div>
-                <div class="">
+                <div class="col-md-4">
                     <!--Start Serivces block Three Single-->
                     <div class="serivces-block-three-single text-center">
                     <div class="bg" style="background-image: url(assets/images/resource/faq-3.jpg);"></div>
