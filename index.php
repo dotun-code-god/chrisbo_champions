@@ -208,7 +208,7 @@
         <div class="top-title text-center">
             <div class="wow slideInUp animated" data-wow-delay="0.1s" data-wow-duration="1500ms">
                 <div class="count-outer count-box">
-                    <span class="count-text" data-speed="3000" data-stop="160">0</span><span class="plus">+</span>
+                    <span class="count-text" data-speed="3000" data-stop="250">0</span><span class="plus">+</span>
                     <span>Registered Champions</span>
                 </div>
             </div>
@@ -834,6 +834,9 @@
                 <div class="image"><img src="assets/images/resource/bml.jpg" alt=""></div>
                 <div class="image"><img src="assets/images/resource/gansid.jpg" alt=""></div>
                 <div class="image"><img src="assets/images/resource/tbdn.jpg" alt=""></div>
+                <div class="image"><img src="assets/images/resource/partners-bcos.jpg" alt=""></div>
+                <div class="image"><img src="assets/images/resource/partners-amuludun.jpg" alt=""></div>
+                <div class="image"><img src="assets/images/resource/partners-uplift-the-nation.jpg" alt=""></div>
 
             </div>
         </div>
